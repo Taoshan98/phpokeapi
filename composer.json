@@ -1,9 +1,9 @@
 {
-    "name": "lmerotta/phpokeapi",
-    "description": "A PHP7.1 Wrapper for PokéAPI, with cache and lazy-loading",
+    "name": "taoshan98/phpokeapi",
+    "description": "Wrapper for PokéAPI, with cache and lazy-loading",
     "type": "library",
     "require": {
-        "php": "^7.1.3",
+        "php": "^8.x",
         "ocramius/proxy-manager": "^2.1",
         "psr/cache": "^1.0",
         "psr/simple-cache": "^1.0",
@@ -15,8 +15,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Lucio Merotta",
-            "email": "l.merotta@gmail.com"
+            "name": "Nunzio Marfè",
+            "email": "nunzio.marfe@gmail.com"
         }
     ],
     "autoload": {
@@ -25,8 +25,5 @@
             "tests\\": "tests/"
         }
     },
-    "minimum-stability": "stable",
-    "require-dev": {
-        "phpunit/phpunit": "^7.2"
-    }
+    "minimum-stability": "stable"
 }
